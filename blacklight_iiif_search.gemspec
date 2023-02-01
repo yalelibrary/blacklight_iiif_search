@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.version     = BlacklightIiifSearch::VERSION
   s.authors     = ['Eben English']
   s.email       = ['eenglish@bpl.org']
-  s.homepage    = 'https://github.com/boston-library/blacklight_iiif_search'
+  s.homepage    = 'https://github.com/yalelibrary/blacklight_iiif_search'
   s.summary     = 'Blacklight IIIF Search plugin'
   s.description = 'Blacklight IIIF Search plugin'
   s.license     = 'Apache-2.0'
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.metadata["homepage_uri"] = s.homepage
   s.metadata["source_code_uri"] = s.homepage
 
-  s.add_dependency 'rails', '>= 5.1', '<= 7'
+  s.add_dependency 'rails', '>= 5.1', '< 8'
   s.add_dependency 'blacklight', '~> 7.0'
   s.add_dependency 'iiif-presentation'
 
